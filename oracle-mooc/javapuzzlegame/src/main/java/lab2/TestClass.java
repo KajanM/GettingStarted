@@ -4,7 +4,7 @@ public class TestClass {
     public static void main(String[] args) {
     
     //Create new instances
-    SavingsAccount savings1 = new SavingsAccount("Savings Account", "Duke", 100, 0.02);
+    SavingsAccount savings1 = new SavingsAccount("Savings Account", "Duke", 100);
 
     
     
@@ -22,8 +22,8 @@ public class TestClass {
     
     
     //Create new instances
-    CheckingAccount checking1 = new CheckingAccount("Checking Account", "Duke", 0);
-    CheckingAccount checking2 = new CheckingAccount("Checking Account", "Carrie", 500000);
+    CheckingAccount checking1 = new CheckingAccount("Duke", 0);
+    CheckingAccount checking2 = new CheckingAccount("Carrie", 500000);
     
     //Call methods on instances
     checking1.printDetails();
